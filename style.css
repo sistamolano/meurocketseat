@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px
+    /*Auto não aplica para acima e para baixo */
+}
+
+#hero img {
+  margin-bottom: 72px;
+
+}
+
+h1 {
+  font-size: 49px;
+  font-family: 'Inter', sans-serif;
+  line-height: 50px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+span,
+a {
+  color: orange;
+}
+
+p, #footer  {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  border: 1px #eceff2 solid;
+  margin: 0 auto 8px
+}
+
+#footer a+a {
+  /*pegue o a, que anterior a ele tem um a */
+  margin-left: 28px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px
+}
